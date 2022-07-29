@@ -1,7 +1,7 @@
 import axios from "axios"
 export function request (config) {
   const instance = axios.create({
-    baseURL: 'http://big-event-vue-api-t.itheima.net',
+    baseURL: 'http://big-event-vue-api-t.itheima.net/',
     timeout: 2000,
   })
   // 添加请求拦截器

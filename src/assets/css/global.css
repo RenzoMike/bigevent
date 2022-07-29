@@ -5,7 +5,7 @@ body {
   height: 100%;
 }
 
-// 全局重置 element-ui 组件库的基础样式
+/* // 全局重置 element-ui 组件库的基础样式 */
 .el-input__inner,
 .el-button,
 .el-link,
@@ -15,13 +15,13 @@ body {
   font-size: 12px;
 }
 
-// 重置菜单的基础样式
+/* // 重置菜单的基础样式 */
 .el-menu.el-menu--horizontal {
   height: 60px;
   border-bottom: none;
 }
 
-// 重置卡片的基础样式
+/* // 重置卡片的基础样式 */
 .el-card.is-always-shadow,
 .el-card.is-hover-shadow:focus,
 .el-card.is-hover-shadow:hover {
@@ -29,7 +29,7 @@ body {
   font-size: 13px;
 }
 
-// 全局重置 el-table 的样式
+/* // 全局重置 el-table 的样式 */
 .el-table thead {
   color: #000;
 }
